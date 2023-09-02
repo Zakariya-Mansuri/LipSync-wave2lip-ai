@@ -197,8 +197,8 @@ def main():
             if not still_reading:
                 video_stream.release()
                 break
-            if args.resize_factor > 1:
-                frame = cv2.resize(frame, (720, 720))
+                
+            frame = cv2.resize(frame, (720, 720))
 
             if args.rotate:
                 frame = cv2.rotate(frame, cv2.cv2.ROTATE_90_CLOCKWISE)
