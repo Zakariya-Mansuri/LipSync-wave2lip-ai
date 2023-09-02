@@ -4,9 +4,13 @@
 The objective of this project is to create an AI model that is proficient in lip-syncing i.e. synchronizing an audio file with a video file. The model is accurately matching the lip movements of the characters in the given video file with the corresponding audio file.
 
 ### Results-
-Orignal Video - 
-Orignal Audio -
-Generated Lip Synced Video - 
+Orignal Video - https://www.youtube.com/watch?v=YMuuEv37s0o&sub_confirmation=1
+Orignal Audio - https://drive.google.com/file/d/1jhUOAeGw8lPjNf7Q1cIcBOvzE3CJ3gVz/view?pli=1
+Generated Lip Synced Video -  https://github.com/stokome/LipSync-wave2lip-ai/assets/87638990/75dde50e-ca58-4d1b-9153-0bfd3045f981
+
+
+
+
 
 ### Further Improvements- 
 Used Face Restoration AI(GFPGAN) to get ultra high quality videos-
@@ -40,7 +44,7 @@ Video quality was improved when I replaced wave2lip.pth weigths with wave2lip_ga
 
 
 
-###References
+### References
 
 [Wave2Lip](https://github.com/Rudrabha/Wav2Lip)
 
