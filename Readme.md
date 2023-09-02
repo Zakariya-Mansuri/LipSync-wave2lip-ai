@@ -17,7 +17,8 @@ Generated Lip Synced Video -  https://github.com/stokome/LipSync-wave2lip-ai/ass
 
 ### Further Improvements- 
 Used Face Restoration AI(GFPGAN) to get ultra high quality videos-
-Improved Lip Synced Video -
+
+Improved Lip Synced Video - https://drive.google.com/file/d/1eXF9nijXPRCIDUHA8x1V8YJeoH03WR-S/view?usp=drive_link
 
 ### Challenges Faced and Solved- 
 1. Wave2Lib model dosent support video frames that dosent have face detected. So I had to make changes int the code base to ensure all frames are processed and frames that dosent had face got ignored by the model.
@@ -45,7 +46,8 @@ for rect, image in zip(predictions, images):
 ### Use of Image Restoration AI GFPGAN_ 
 Video quality was improved when I replaced wave2lip.pth weigths with wave2lip_gan weights. Further improvement was done using GFPGAN. GFPGAN is an image restoration AI. To use it on our inference we first divided the output images into frames, improved quality of each frame independently and then combined the frames in 25fps and audio.
 
-
+### How to run:
+Run the ipython notebooks in the google colab
 
 ### References
 
